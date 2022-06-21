@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SortedNumbers.ModelAndController\SortedNumbers.ModelAndController.csproj" />
+  </ItemGroup>
+
 </Project>

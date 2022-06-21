@@ -1,6 +1,5 @@
-﻿using SortedNumbersMvc;
-
-var numberList = new SortedNumbers();
+﻿
+var numberList = new SortedNumbers.ModelAndController.SortedNumbers();
 while (true)
 {
     Console.Clear();

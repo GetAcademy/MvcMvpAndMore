@@ -1,6 +1,6 @@
-﻿namespace SortedNumbersMvc
+﻿namespace SortedNumbers.ModelAndController
 {
-    internal class SortedNumbers
+    public class SortedNumbers
     {
         private List<int> _numbers;
         public int[] Numbers => _numbers.ToArray();
