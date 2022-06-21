@@ -6,7 +6,7 @@
  *  4: JS
  */
 
-using SortedNumbers.Presenter;
+using SortedNumbersPresenter;
 
 var presenter = new Presenter();
 presenter.Run();

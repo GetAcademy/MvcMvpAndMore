@@ -2,9 +2,10 @@
 {
     public class SortedNumbers
     {
-        private List<int> _numbers;
+        private readonly List<int> _numbers;
         public int[] Numbers => _numbers.ToArray();
         public int Sum => _numbers.Sum();
+        public bool IsEmpty => _numbers.Count == 0;
 
         public SortedNumbers()
         {
