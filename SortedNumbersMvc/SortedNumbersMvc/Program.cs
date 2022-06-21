@@ -1,5 +1,4 @@
-﻿
-var numberList = new SortedNumbers.ModelAndController.SortedNumbers();
+﻿var numberList = new SortedNumbers.ModelAndController.SortedNumbers();
 while (true)
 {
     Console.Clear();
@@ -19,7 +18,8 @@ while (true)
         var numberStr = Console.ReadLine();
         var number = Convert.ToInt32(numberStr);
         numberList.Add(number);
-    } else if (command == "2")
+    }
+    else if (command == "2")
     {
         Console.Write("Hvilket tall vil du fjerne? ");
         var numberStr = Console.ReadLine();
