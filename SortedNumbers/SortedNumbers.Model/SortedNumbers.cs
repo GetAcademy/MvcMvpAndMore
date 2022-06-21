@@ -1,8 +1,8 @@
-﻿namespace SortedNumbers.ModelAndController
+﻿namespace SortedNumbersModel
 {
     public class SortedNumbers
     {
-        private readonly List<int> _numbers;
+        private List<int> _numbers;
         public int[] Numbers => _numbers.ToArray();
         public int Sum => _numbers.Sum();
 
