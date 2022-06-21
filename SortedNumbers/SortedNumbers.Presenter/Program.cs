@@ -1,6 +1,4 @@
 ﻿/*
- * Pause til 11:00
- *
  * Terjes huskeliste:
  *  1: MVC
  *  2: MVP
